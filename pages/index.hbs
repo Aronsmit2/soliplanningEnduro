@@ -1,52 +1,45 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>enduro.js page</title>
-		<link rel="stylesheet" href="/assets/css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,200" rel="stylesheet">
-		<style type="text/css"></style>
-	</head>
-	<body>
-		{{!-- intro --}}
-		{{#with first_slide}}
-			<section class="screen">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-				</div>
+<html lang="nl">
 
-				<div class="bottom_block vertical_pulsate">
-					<p>{{call_to_action}}</p>
-				</div>
-			</section>
-		{{/with}}
 
-		{{#each instruction_points}}
-			<section class="screen half color{{divisible @index 2 '1' '2'}}">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-					<a target="_blank" class="button" href="{{link}}">Learn more</a>
-				</div>
-			</section>
-		{{/each}}
+{{>head}}
 
-		{{#with so_much_more_block}}
-			<section class="screen half color1">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-					<ul>
-						{{#each list_of_topics}}
-							<li>{{tagline}} <a target="_blank" href="">Here</a></li>
-						{{/each}}
-					</ul>
-				</div>
-			</section>
-		{{/with}}
+<body>
+  {{>mobile-top}}
+  {{>navbar}}
+  
+  <form class="form-home">
+    <button>Concert</button>
+    <button>Repetitie</button>
+  </form>
+  <div class="datum-wrapper">
+    <div>
+      <h2 class="titel-concert">Titel concert</h2>
+      <p class="datum-concert">Datum concert</p>
+    </div>
+    <div class="home-blokjes">
+      <ul>
+        <li><label><input type="checkbox"></label></li>
+        <li><label><input type="checkbox"></label></li>
+        <li><label><input type="checkbox"></label></li>
+      </ul>
+    </div>
+  </div>
 
-		{{>footer}}
+  <div class="datum-wrapper">
+      <div>
+        <h2 class="titel-concert">Titel concert</h2>
+        <p class="datum-concert">Datum concert</p>
+      </div>
+      <div class="home-blokjes">
+        <ul>
+          <li><label><input type="checkbox"></label></li>
+          <li><label><input type="checkbox"></label></li>
+          <li><label><input type="checkbox"></label></li>
+        </ul>
+      </div>
+    </div>  
 
-	</body>
+</body>
 
 </html>

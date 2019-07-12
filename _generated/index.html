@@ -1,72 +1,60 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>enduro.js page</title>
-		<link rel="stylesheet" href="/assets/css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,200" rel="stylesheet">
-		<style type="text/css"></style>
-	</head>
-	<body>
-			<section class="screen">
-				<div class="center_block">
-					<p class="huge">Woooooow!</p>
-					<p>Your first enduro.js project</p>
-				</div>
+<html lang="nl">
 
-				<div class="bottom_block vertical_pulsate">
-					<p>Scroll down to see what&#x27;s up</p>
-				</div>
-			</section>
 
-			<section class="screen half color1">
-				<div class="center_block">
-					<p class="huge">Create a new page</p>
-					<p>By adding a file to /pages folder</p>
-					<a target="_blank" class="button" href="https://www.endurojs.com/docs/templates">Learn more</a>
-				</div>
-			</section>
-			<section class="screen half color2">
-				<div class="center_block">
-					<p class="huge">Create content for your page</p>
-					<p>By adding a file to /cms folder</p>
-					<a target="_blank" class="button" href="https://www.endurojs.com/docs/content-files">Learn more</a>
-				</div>
-			</section>
-			<section class="screen half color1">
-				<div class="center_block">
-					<p class="huge">Style your page</p>
-					<p>By adding a file to /assets/css folder</p>
-					<a target="_blank" class="button" href="https://www.endurojs.com/docs/sass">Learn more</a>
-				</div>
-			</section>
-			<section class="screen half color2">
-				<div class="center_block">
-					<p class="huge">Admin interface</p>
-					<p>Create amazing content with ease</p>
-					<a target="_blank" class="button" href="https://www.endurojs.com/docs/introduction-to-admin">Learn more</a>
-				</div>
-			</section>
+<!-- views/partials/head.ejs -->
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <div>
+  <img id="Logo" style="width: 85px;" src="#" alt="Soli-logo">
+  </div>  <a class="header clearfix">
+      <nav class="mobile-nav">
+          <ul>
+              <li><a href="/"><img src="images/home_1x.png" alt="Home"></a></li>
+              <li><a href="/login"><img src="images/profile_1x.png" alt="Login"></a></li>
+              <li><a href="/"><img src="images/cal_1x.png" alt="Data"></a></li>
+              <li><a href="/"><img src="images/list_1x.png" alt="Overzicht"></a></li>
+              <li><a href="/"><img src="images/info_1x.png" alt="About"></a></li>
+          </ul>
+      </nav>
+  </a>  
+  <form class="form-home">
+    <button>Concert</button>
+    <button>Repetitie</button>
+  </form>
+  <div class="datum-wrapper">
+    <div>
+      <h2 class="titel-concert">Titel concert</h2>
+      <p class="datum-concert">Datum concert</p>
+    </div>
+    <div class="home-blokjes">
+      <ul>
+        <li><label><input type="checkbox"></label></li>
+        <li><label><input type="checkbox"></label></li>
+        <li><label><input type="checkbox"></label></li>
+      </ul>
+    </div>
+  </div>
 
-			<section class="screen half color1">
-				<div class="center_block">
-					<p class="huge">Sooooooo</p>
-					<p>much more</p>
-					<ul>
-							<li>Create blog: <a target="_blank" href="">Here</a></li>
-							<li>Create personal portfolio: <a target="_blank" href="">Here</a></li>
-							<li>Link content files: <a target="_blank" href="">Here</a></li>
-							<li>Host your page on heroku: <a target="_blank" href="">Here</a></li>
-							<li>Host your page on github: <a target="_blank" href="">Here</a></li>
-							<li>Host your page on netlify: <a target="_blank" href="">Here</a></li>
-					</ul>
-				</div>
-			</section>
+  <div class="datum-wrapper">
+      <div>
+        <h2 class="titel-concert">Titel concert</h2>
+        <p class="datum-concert">Datum concert</p>
+      </div>
+      <div class="home-blokjes">
+        <ul>
+          <li><label><input type="checkbox"></label></li>
+          <li><label><input type="checkbox"></label></li>
+          <li><label><input type="checkbox"></label></li>
+        </ul>
+      </div>
+    </div>  
 
-		<section class="screen half">
-			<div class="center_block">
-				<p>For support visit enduro.js on <a href="https://github.com/Gottwik/Enduro">github</a></p>
-			</div>
-		</section>
-	</body>
+</body>
 
 </html>
