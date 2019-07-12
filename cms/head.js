@@ -1,4 +1,4 @@
-{
-    titel-website: 'soliPlanning',
-    description: 'PLanning app for soli Zaandam'
-}
+({
+	titelWebsite: 'soliPlanning',
+	description: 'PLanning app for soli Zaandam'
+})
