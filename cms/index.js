@@ -13,5 +13,7 @@
 			activityName: 'gedgerffg',
 			activityDate: '3543534'
 		}
-	]
+	],
+	$logo_type: 'image',
+	logo: '/remote/direct_uploads/1562940306_Soli_logo.png'
 })
